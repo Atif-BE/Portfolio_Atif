@@ -1,10 +1,10 @@
 import { Container } from "../styles/landingPageStyle";
 import NavBar from "./NavBar";
+import "../styles/global.css"
 
 const Landing = () => {
     return (
         <Container>
-            <p>Landing</p>
             <NavBar />
         </Container>
     )
