@@ -6,4 +6,5 @@ export const Container = styled.div`
     overflow-y: auto;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
+    color: white;
 `
