@@ -4,7 +4,13 @@ import { TextNonItalic } from "../../shared/Text";
 import { Title } from "../../shared/Title";
 
 const Container = styled.div`
-
+     box-shadow: 10px 10px #61DBFB;
+     border: solid black 2px;
+     transition: transform .2s;
+     padding: 2rem;
+     &:hover{
+        transform: scale(1.05);
+     }
 `
 
 type ProjectProps = {
