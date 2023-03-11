@@ -6,5 +6,24 @@ export const Container = styled.div`
     margin-right: 100px;
     scroll-snap-align: center;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+`
+
+export const Section = styled.div`
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+`
+
+export const Left = styled.div`
+    flex: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1px;
+`
+
+export const Right = styled.div`
+    flex: 2;
 `

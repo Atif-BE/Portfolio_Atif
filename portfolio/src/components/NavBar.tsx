@@ -1,4 +1,4 @@
-import { Nav } from "../styles/navbarStyles";
+import { Nav } from "../shared/navbarStyles";
 
 
 const NavBar = () => {
