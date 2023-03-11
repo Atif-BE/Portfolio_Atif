@@ -1,6 +1,6 @@
 import { Title } from "../shared/Title";
 import { SubTitle } from "../shared/SubTitle";
-import { Text } from "../shared/Text";
+import { TextItalic } from "../shared/Text";
 import { Container, Right, Left, Section } from "../styles/landingPageStyle";
 import NavBar from "./NavBar";
 
@@ -12,7 +12,7 @@ const Landing = () => {
                 <Left>
                     <Title>Hi, I am Atif Khalil</Title>
                     <SubTitle>Full Stack Developer</SubTitle>
-                    <Text>Contact me here!</Text>
+                    <TextItalic>Contact me here!</TextItalic>
                 </Left>
                 <Right>
 

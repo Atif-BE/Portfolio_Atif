@@ -7,4 +7,6 @@ export const Container = styled.div`
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
     color: white;
+    padding-left: 100px;
+    padding-right: 100px;
 `
