@@ -20,7 +20,7 @@ const Projects = () => {
                         <Project name="React Native Game" desc="This was a Higher or Lower type of game that was created by me and 2 others using React Native" link={""} />
                     </ChildSection>
                     <ChildSection style={{ width: "40%" }}>
-                        <Project name="OAuth" desc="Created a authentication system using MSAL 2.0 for users to be able to login. (This was created to then later implement in other applications)" link={""} />
+                        <Project name="OAuth" desc="Created a authentication system using MSAL 2.0 (This was created for use in other applications)" link={""} />
                     </ChildSection>
                 </Section>
             </Wrapper>
