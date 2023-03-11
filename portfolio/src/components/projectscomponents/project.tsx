@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Button from "../../shared/Button";
 import { TextNonItalic } from "../../shared/Text";
 import { Title } from "../../shared/Title";
 
@@ -17,9 +18,7 @@ const Project = (props:ProjectProps) => {
         <Container>
             <Title>{props.name}</Title>
             <TextNonItalic>{props.desc}</TextNonItalic>
-            <button onClick={location.href=props.link}>
-                Go to Github
-            </button>
+            <Button link={props.link}  />
         </Container>
     )
 
