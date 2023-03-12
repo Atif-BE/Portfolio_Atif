@@ -1,12 +1,7 @@
 import emailjs from "@emailjs/browser";
-import styled from "styled-components";
 import { TEMPLATE_ID, SERVICE_ID, USER_ID } from "../config/config.js"
 import { Btn } from "../styles/Btn.js";
-
-const FormWrapper = styled.form`
-    display: flex;
-    flex-direction: column;
-`
+import { FormWrapper } from "../styles/Form.js";
 
 const Form = () => {
     const sendMail = (e: any) => {
