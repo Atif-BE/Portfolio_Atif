@@ -9,7 +9,7 @@ const Contact = () => {
     return(
         <Container>
             <Wrapper>
-                <Section>
+                <Section style={{justifyContent:"center"}}>
                     <Title style={{ backgroundColor: "white", color: "black", borderRadius: "5px" }}>Contact Me Form</Title>
                 </Section>
                 <Section>

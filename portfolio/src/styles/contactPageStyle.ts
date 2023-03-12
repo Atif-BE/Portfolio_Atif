@@ -3,17 +3,24 @@ import styled from "styled-components";
 export const Container = styled.div`
     height: 100vh;
     scroll-snap-align: center;
+    display: flex;
+    flex-direction: column;
 `
 
 export const Section = styled.div`
+    display: flex;
+    margin-top: 70px;
 `
 
 export const Left = styled.div`
+    flex: 2;
 `
 
 export const Right = styled.div`
+    flex: 3;
 `
 
 export const Wrapper = styled.div`
-
+    display: flex;
+    flex-direction: column;
 `

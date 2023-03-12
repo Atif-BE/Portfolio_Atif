@@ -16,13 +16,13 @@ const Form = () => {
     }
 
     return(
-        <FormWrapper>
-            <label>Name</label>
-            <input type='text' placeholder='Your Name' name='name' required></input>
-            <label>E-mail</label>
-            <input type='email' placeholder='Your Email' name='email' required></input>
-            <label>Message</label>
-            <textarea placeholder='Coding a Message...' name='message' rows={5} required></textarea>
+        <FormWrapper onSubmit={sendMail}>
+            <label style={{}}>NAME</label>
+            <input style={{borderRadius:"5px", height:"1.5rem", border:"none"}} type='text' placeholder='Your Name' name='name' required></input>
+            <label>E-MAIL</label>
+            <input style={{ borderRadius: "5px", height: "1.5rem", border: "none" }} type='email' placeholder='Your Email' name='email' required></input>
+            <label>MESSAGE</label>
+            <textarea style={{ borderRadius: "5px", border: "none" }} placeholder='Coding a Message...' name='message' rows={5} required></textarea>
             <Btn type='submit'>Send Message</Btn>
         </FormWrapper>
     )
