@@ -2,7 +2,7 @@ import { Nav } from "../shared/navbarStyles";
 
 
 const NavBar = () => {
-    const menuItems = ["Home", "Who", "Projects", "Contact"];
+    const menuItems = ["01 Home", "02 Who", "03 Projects", "04 Contact"];
 
 
     return(
