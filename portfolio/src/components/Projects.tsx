@@ -1,4 +1,4 @@
-import { Title } from "../shared/Title";
+import { Title } from "../styles/Title";
 import { ChildSection, Container, Section, Wrapper } from "../styles/projectsPageStyle";
 import Project from "./projectscomponents/project";
 

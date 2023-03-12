@@ -1,7 +1,7 @@
-import { Title } from "../shared/Title";
-import { TextNonItalic } from "../shared/Text";
+import { Title } from "../styles/Title";
+import { TextNonItalic } from "../styles/Text";
 import { Container, Section, Wrapper } from "../styles/whoPageStyle";
-import { SubTitle } from "../shared/SubTitle";
+import { SubTitle } from "../styles/SubTitle";
 import { Left, Right } from "../styles/whoPageStyle";
 
 const Who = () => {

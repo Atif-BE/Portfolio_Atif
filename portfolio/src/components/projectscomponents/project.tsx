@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import Button from "../../shared/Button";
-import { TextNonItalic } from "../../shared/Text";
-import { Title } from "../../shared/Title";
+import Button from "../../reusablecomponents/Button";
+import { TextNonItalic } from "../../styles/Text";
+import { Title } from "../../styles/Title";
 
 const Container = styled.div`
      box-shadow: 10px 10px #61DBFB;

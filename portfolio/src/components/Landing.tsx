@@ -1,6 +1,6 @@
-import { Title } from "../shared/Title";
-import { SubTitle } from "../shared/SubTitle";
-import { TextItalic } from "../shared/Text";
+import { Title } from "../styles/Title";
+import { SubTitle } from "../styles/SubTitle";
+import { TextItalic } from "../styles/Text";
 import { Container, Right, Left, Section } from "../styles/landingPageStyle";
 import NavBar from "./NavBar";
 

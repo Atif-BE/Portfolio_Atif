@@ -1,4 +1,4 @@
-import { Nav } from "../shared/navbarStyles";
+import { Nav } from "../reusablecomponents/navbarStyles";
 
 
 const NavBar = () => {
