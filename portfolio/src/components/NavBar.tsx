@@ -1,4 +1,4 @@
-import { Nav } from "../reusablecomponents/navbarStyles";
+import { Nav } from "../styles/navbarStyles";
 
 
 const NavBar = () => {

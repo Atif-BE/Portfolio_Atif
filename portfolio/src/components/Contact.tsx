@@ -2,6 +2,7 @@ import { Container, Section, Left, Right, Wrapper } from "../styles/contactPageS
 import { Title } from "../styles/Title";
 import { SubTitle } from "../styles/SubTitle";
 import { TextNonItalic } from "../styles/Text";
+import Form from "../reusablecomponents/Form";
 
 
 const Contact = () => {
@@ -9,11 +10,11 @@ const Contact = () => {
         <Container>
             <Wrapper>
                 <Section>
-                    <Title style={{ backgroundColor: "white", color: "black", borderRadius: "5px" }}>Enthusiast Web Developer!</Title>
+                    <Title style={{ backgroundColor: "white", color: "black", borderRadius: "5px" }}>Contact Me Form</Title>
                 </Section>
                 <Section>
                     <Left>
-                        
+                        <Form/>
                     </Left>
                     <Right>
 
