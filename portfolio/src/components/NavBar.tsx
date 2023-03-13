@@ -8,7 +8,7 @@ const NavBar = () => {
     return(
         <Nav>
             <img src="./logo_transparent.png" width={200} height={70}></img>
-            {menuItems.map(e => <p>{e}</p>)}
+            {menuItems.map((e, index) => <p key={index}>{e}</p>)}
         </Nav>
     )
 }

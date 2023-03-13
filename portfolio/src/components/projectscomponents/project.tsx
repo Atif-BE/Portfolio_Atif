@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Button from "../../reusablecomponents/Button";
+import Button from "../reusablecomponents/Button";
 import { TextNonItalic } from "../../styles/Text";
 import { Title } from "../../styles/Title";
 

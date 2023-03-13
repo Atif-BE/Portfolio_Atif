@@ -2,7 +2,7 @@ import { Container, Section, Left, Right, Wrapper } from "../styles/contactPageS
 import { Title } from "../styles/Title";
 import { SubTitle } from "../styles/SubTitle";
 import { TextNonItalic } from "../styles/Text";
-import Form from "../reusablecomponents/Form";
+import Form from "./reusablecomponents/Form";
 
 
 const Contact = () => {

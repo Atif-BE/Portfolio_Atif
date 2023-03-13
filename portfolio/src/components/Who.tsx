@@ -23,7 +23,7 @@ const Who = () => {
                         <TextNonItalic>3 year Bachelors Electronics-ICT <br /> 2 years Graduate Programming</TextNonItalic>
                         <TextNonItalic>6 months Full Stack Developer Internship at Amotek Technologies</TextNonItalic>
                         <SubTitle>Skills</SubTitle>
-                        {skills.map(e => <TextNonItalic>{e}</TextNonItalic>)}
+                        {skills.map((e, index) => <TextNonItalic key={index}>{e}</TextNonItalic>)}
                     </Right>
                 </Section>
             </Wrapper>
