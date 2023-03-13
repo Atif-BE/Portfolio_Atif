@@ -9,12 +9,13 @@ export const Container = styled.div`
 
 export const Section = styled.div`
     display: flex;
-    margin-top: 70px;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
 `
 export const ChildSection = styled.div`
-    width: 40%;
-    margin: 20px 20px;
+    margin: 20px 50px;
+    flex: 1 0 33%;
 `
 
 export const Wrapper = styled.div`

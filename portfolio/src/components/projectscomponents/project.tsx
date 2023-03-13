@@ -10,7 +10,7 @@ const Container = styled.div`
      border-radius: 5px;
      display: flex;
      flex-direction: column;
-     width: 80%;
+     width: 100%;
      gap: 10px;
      align-items: center;
      transition: transform .2s;
@@ -29,8 +29,8 @@ type ProjectProps = {
 const Project = (props:ProjectProps) => {
     return (
         <Container>
-            <Title style={{ color:"#61DBFB"}}>{props.name}</Title>
-            <TextNonItalic>{props.desc}</TextNonItalic>
+            <Title style={{ color:"#61DBFB", fontSize:"20px"}}>{props.name}</Title>
+            <TextNonItalic style={{fontSize:"16px"}}>{props.desc}</TextNonItalic>
             <Button link={props.link}  />
         </Container>
     )

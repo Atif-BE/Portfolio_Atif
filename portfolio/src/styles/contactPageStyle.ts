@@ -9,7 +9,6 @@ export const Container = styled.div`
 
 export const Section = styled.div`
     display: flex;
-    margin-top: 70px;
 `
 
 export const Left = styled.div`
